@@ -1,0 +1,103 @@
+.person {
+    position: relative;
+}
+
+.person .image {
+    width: 600px;
+    height: 600px;
+}
+
+.person .image img {
+    width: 100%;
+    image-rendering: pixelated;
+}
+
+.person .head-wrapper {
+    position: absolute;
+    left: 64px;
+    top: 0;
+}
+
+.person .head {
+    background-size: 512px;
+    background-position-x: -64px;
+    background-position-y: -64px;
+    width: 64px;
+    height: 64px;
+    image-rendering: pixelated;
+}
+
+.person .body-wrapper {
+    position: absolute;
+    left: 64px;
+    top: 64px;
+}
+
+.person .body {
+    background-size: 512px;
+    background-position-x: -160px;
+    background-position-y: -160px;
+    width: 64px;
+    height: 96px;
+    image-rendering: pixelated;
+}
+
+.person .l-hand-wrapper {
+    position: absolute;
+    top: 64px;
+    left: 32px;
+}
+
+.person .l-hand {
+    background-size: 512px;
+    background-position-x: -352px;
+    background-position-y: -160px;
+    width: 32px;
+    height: 96px;
+    image-rendering: pixelated;
+}
+
+.person .r-hand-wrapper {
+    position: absolute;
+    top: 64px;
+    left: 128px;
+}
+
+.person .r-hand {
+    background-size: 512px;
+    background-position-x: -416px;
+    background-position-y: -160px;
+    width: 32px;
+    height: 96px;
+    image-rendering: pixelated;
+}
+
+.person .l-leg-wrapper {
+    position: absolute;
+    top: 160px;
+    left: 64px;
+}
+
+.person .l-leg {
+    background-size: 512px;
+    background-position-x: -32px;
+    background-position-y: -160px;
+    width: 32px;
+    height: 96px;
+    image-rendering: pixelated;
+}
+
+.person .r-leg-wrapper {
+    position: absolute;
+    top: 160px;
+    left: 96px;
+}
+
+.person .r-leg {
+    background-size: 512px;
+    background-position-x: -96px;
+    background-position-y: -160px;
+    width: 32px;
+    height: 96px;
+    image-rendering: pixelated;
+}
