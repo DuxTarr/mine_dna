@@ -1,21 +1,27 @@
 .menu {
-    width: 150px;
+    width: 200px;
     float: left;
     color: #CCCCCC;
+    padding: 50px 0;
+    border: 1px solid #CCCCCC;
+    border-left: 4px solid #009933;
+    background-color: #ffffff;
+
     .item {
         padding: 5px 5px 5px 20px;
-        border-left: 4px solid #009933;
-        background-color: #333333;
         cursor: pointer;
-        color: #FFFFFF;
+        background-color: #ffffff;
+        color: #333333;
+
 
     }
     .item:hover {
-        color: #333333;
-        border-left: 8px solid #33CC33;
-        background-color: #ffffff;
+        border-left: 4px solid #009933;
         transition: 200ms;
         padding: 5px 5px 5px 24px;
+        background-color: #333333;
+        color: #FFFFFF;
+
 
     }
 }
