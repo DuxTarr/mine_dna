@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="353.18542"
-     inkscape:cy="716.22665"
+     inkscape:cx="88.185425"
+     inkscape:cy="764.28724"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -58,14 +58,18 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#008000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 41.428571,35.219342 0,159.999998 159.999999,0 0,-60 -20,0 0,40 -119.999999,0 0,-119.999998 139.999999,0 0,-20 z"
-       id="path3397"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#552200;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#552200;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 141.42857,155.21934 20,0 0,-40 40,0 0,-19.999998 -60,0 z"
        id="path3399"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="102.85714"
+       inkscape:export-ydpi="102.85714" />
+    <path
+       style="fill:#008000;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 200,132.3622 -20,0 0,40 -100,0 0,-99.999995 120,0 0,-20 -140,0 0,139.999995 140,0 z"
+       id="path4268"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="102.85714"
+       inkscape:export-ydpi="102.85714" />
   </g>
 </svg>
