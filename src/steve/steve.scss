@@ -1,6 +1,8 @@
-.person {
-    position: relative;
-}
+.test {
+    float: left;
+}.person {
+     position: relative;
+ }
 
 .person .image {
     width: 600px;
@@ -14,11 +16,12 @@
 
 .person .head-wrapper {
     position: absolute;
-    left: 64px;
+    left: 32px;
     top: 0;
 }
 
 .person .head {
+    position: absolute;
     background-size: 512px;
     background-position-x: -64px;
     background-position-y: -64px;
@@ -29,11 +32,12 @@
 
 .person .body-wrapper {
     position: absolute;
-    left: 64px;
+    left: 32px;
     top: 64px;
 }
 
 .person .body {
+    position: absolute;
     background-size: 512px;
     background-position-x: -160px;
     background-position-y: -160px;
@@ -45,10 +49,11 @@
 .person .l-hand-wrapper {
     position: absolute;
     top: 64px;
-    left: 32px;
+    left: 0px;
 }
 
 .person .l-hand {
+    position: absolute;
     background-size: 512px;
     background-position-x: -352px;
     background-position-y: -160px;
@@ -60,10 +65,11 @@
 .person .r-hand-wrapper {
     position: absolute;
     top: 64px;
-    left: 128px;
+    left: 96px;
 }
 
 .person .r-hand {
+    position: absolute;
     background-size: 512px;
     background-position-x: -416px;
     background-position-y: -160px;
@@ -75,10 +81,11 @@
 .person .l-leg-wrapper {
     position: absolute;
     top: 160px;
-    left: 64px;
+    left: 32px;
 }
 
 .person .l-leg {
+    position: absolute;
     background-size: 512px;
     background-position-x: -32px;
     background-position-y: -160px;
@@ -90,10 +97,11 @@
 .person .r-leg-wrapper {
     position: absolute;
     top: 160px;
-    left: 96px;
+    left: 64px;
 }
 
 .person .r-leg {
+    position: absolute;
     background-size: 512px;
     background-position-x: -96px;
     background-position-y: -160px;

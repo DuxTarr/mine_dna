@@ -21,4 +21,3 @@
 > D - damage;\
 > P - protection;\
 > X XX XX - special skills\
-

@@ -1,0 +1,12 @@
+
+
+$parts: "h", "y", "s", "j", "p";
+
+@each $part in $parts {
+    @for $i from 0 through 7 {
+        .#{$part}0#{$i} {
+            background-image: url("images/#{$part}0#{$i}.png");
+        }
+    }
+}
+
