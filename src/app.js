@@ -14,7 +14,7 @@ class App extends Component {
                 </div>
                 <div className="container">
                     <Menu/>
-                    <div className="main">
+                    <div id="main">
                         <Steve/>
                     </div>
                 </div>

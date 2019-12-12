@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import './menu.scss';
 
 import ReactDOM from 'react-dom';
+import TopList from "../top-list/top-list";
+import Steve from "../steve/steve";
 
 class Menu extends Component {
     render() {
@@ -12,6 +14,13 @@ class Menu extends Component {
                 <div className="item top-sand-box">Sand box</div>
             </div>
         );
+    }
+
+    showTopList() {
+        ReactDOM.render(<TopList />, document.getElementById('main'));
+    }
+    showMyGenome() {
+        ReactDOM.render(<Steve />, document.getElementById('main'));
     }
 }
 
