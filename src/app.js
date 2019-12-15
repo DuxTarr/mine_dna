@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './app.scss';
 import Steve from './steve/steve.js';
 import Menu from './menu/menu.js';
+import Sandbox from "./sandbox/sandbox";
 
 
 class App extends Component {
@@ -15,7 +16,7 @@ class App extends Component {
                 <div className="container">
                     <Menu/>
                     <div id="main">
-                        <Steve/>
+                        <Sandbox/>
                     </div>
                 </div>
 
